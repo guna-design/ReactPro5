@@ -98,9 +98,6 @@ function TableData() {
                     {tableData.map((e, i) => {
                       return (
                         <tr key={i}>
-                          <td className="p-3">
-                            <img src="/src/assets/images/minus-square.png" />
-                          </td>
                           <td className="p-3"><a href='#' style={{textDecoration:'none'}}>{e.invoiceId}</a> </td>
                           <td className="p-3">{e.date}</td>
                           <td className="p-3">{e.customer}</td>
