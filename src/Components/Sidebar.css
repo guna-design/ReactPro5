@@ -1,0 +1,51 @@
+
+#Sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 230px;
+    z-index: 2000;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    transition: all 0.3s ease;
+}
+#Sidebar_Close{
+    width: 60px;
+}
+ .sidebartitle{
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+    
+}
+.Sidebar_Menu{
+ 
+    margin-top: 48px;
+    
+}
+.Sidebar-Help{
+   list-style-type: none;
+    margin-top: 15rem;
+    margin-left: 6%;
+
+}
+.Sidebar-bar-list-item{
+    margin-left: 6px;
+    background-color: transparent;
+    padding: 4px;
+}
+
+ul li, a {
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+    
+}
