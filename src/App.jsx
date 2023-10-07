@@ -6,6 +6,7 @@ import Salesinfo from "./Components/Salesinfo";
 import TableData from "./Components/tabledata";
 
 
+
 function App() {
   return (
     <>

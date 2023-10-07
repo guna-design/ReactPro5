@@ -102,7 +102,7 @@ function TableData() {
                   <td className="p-3">
                     <a href="#" style={{ textDecoration: "none" }}>
                       {e.invoiceId}
-                    </a>{" "}
+                    </a>
                   </td>
                   <td className="p-3">{e.date}</td>
                   <td className="p-3">{e.customer}</td>
