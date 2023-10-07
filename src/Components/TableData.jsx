@@ -3,7 +3,7 @@ import React from "react";
 import Table from "react-bootstrap/Table";
 
 function TableData() {
-  const tableData = [
+  let tableData = [
     {
       invoiceId: "#AHGA68",
       date: "23/09/2022",
