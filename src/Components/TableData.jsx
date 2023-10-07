@@ -109,7 +109,7 @@ function TableData() {
                           <td className="p-3">{e.due}</td>
                         </tr>
                       );
-                     })} 
+                     })}
                   </tbody>
       </Table>
     </div>
